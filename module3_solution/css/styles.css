@@ -1,0 +1,100 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #171515;
+;
+  font-family: 'Oxygen', sans-serif;
+  font-family: 'Lora', serif;
+}
+
+#header-nav {
+  background-color: #871b1b;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand h1 { /** NAme */
+  color: #000;
+  font-size: 2.1em;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-shadow: 0.5px 0.5px 0.5px #fff;
+  line-height: .70;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000;
+}
+.navbar-header button.navbar-toggle {
+  clear:both;
+  margin-top: -40px;
+}
+
+/**End Header */
+
+/** MAin content */
+#our-menu-title {
+  font-size: 3.2em;
+}
+
+.menu-item-descritpion .block {
+  background-color: #193742;
+  border: 1px solid #871b1b;
+  margin: 0 0.5em;
+  padding: 0 2em;
+}
+.menu-item-descritpion h3 {
+  font-size: 2em;
+}
+/** End Main content */
+
+/**********Small devices only **********/
+@media (max-width:991px) and (min-width:768px) {
+  .menu-item-descritpion .block {
+    margin: 1em  1em ;
+    padding: 1em 2em;
+  }
+}
+
+/****** Extra small devices only *******/
+
+@media (max-width:767px) {
+  /** header */
+  #collapsable-nav a {
+    font-family: 'Lora', serif;
+    font-size: 1.3em;
+    text-align: center;
+    color: #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+  }
+
+  #collapsable-nav a:hover, #collapsable-nav a:focus {
+    text-decoration: none;
+  }
+  /** End Header*/
+
+  /** Main contant */
+  #our-menu-title {
+    font-size: 2em;
+  }
+  .menu-item-descritpion .block {
+    margin: 1em  3em ;
+    padding: 1em 2em;
+  }
+  .menu-item-descritpion h3 {
+    font-size: 1.4em;
+  }
+  /** End main content */
+}
